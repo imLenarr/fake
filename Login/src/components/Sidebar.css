@@ -1,0 +1,61 @@
+.sidebar {
+  min-height: 100vh;
+  width: auto;
+  transition: all 0.3s;
+  color: #f2f2e6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.sidebar.closed {
+  width: 0;
+  overflow: hidden;
+}
+
+.logo-area {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-link {
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  width: 100%;
+  background-color: #473366;
+  border-radius: 0 20px 20px 0;
+  color: #fd6e2b !important;
+}
+
+.icon {
+  font-size: 1.2rem;
+}
+
+.logout-section {
+  margin-top: auto;
+  padding-bottom: 1rem;
+  /* display: contents; */
+
+}
+
+
+.btn-danger {
+  background-color: #c0392b;
+  border: none;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-danger:hover {
+  background-color: #a93226;
+}
+
+.logout {
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}

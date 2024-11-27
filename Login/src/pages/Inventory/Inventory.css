@@ -1,0 +1,110 @@
+.role-card {
+    display: flex;
+    align-items: center;
+    background-color: #B3B4AD;
+    border-radius: 50px;
+    padding: 0 20px 0 0;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.role-icon {
+    background-color: #473366;
+    color: #FD6E2B;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.role-text {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #473366;
+}
+
+.custom-dropdown-item {
+    background-color: #EBCFCD !important;
+    color: white !important;
+  }
+  
+.custom-dropdown-item:hover {
+    background-color: #deb8b5 !important;
+}
+
+.custom-dropdown .dropdown-toggle:focus,
+.custom-dropdown .dropdown-toggle:active,
+.custom-dropdown .dropdown-toggle.show {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.custom-dropdown .dropdown-menu.show {
+    width: 50px !important; /* ปรับขนาดตามเนื้อหา */
+    min-width: unset !important; /* ลบการตั้งค่าความกว้างขั้นต่ำของ Bootstrap */
+    max-width: unset !important; /* ลบข้อจำกัดความกว้างสูงสุด */
+    background-color: #EBCFCD !important; /* เปลี่ยนสีพื้นหลัง */
+    border: none !important; /* ลบเส้นขอบ */
+    box-shadow: none !important; /* ลบเงา */
+    border-radius: 10px; /* เพิ่มความโค้ง */
+  }
+
+.table th,
+.table td {
+    white-space: nowrap; /* ป้องกันการตัดบรรทัด */
+  }
+  
+.table td.product-name {
+    max-width: 250px !important; /* ตั้งค่าความกว้างคงที่ */
+    overflow: hidden; /* ซ่อนข้อความส่วนที่เกิน */
+    text-overflow: ellipsis; /* แสดง "..." แทนข้อความที่เกิน */
+}
+
+
+/* กำหนดสีพื้นหลัง Header */
+.table thead th {
+  background-color: #473366; /* สีพื้นหลัง */
+  color: white; /* ตัวอักษรสีขาว */
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+/* เพิ่มเส้นแบ่งสำหรับตาราง */
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* กำหนดสไตล์ให้แถว */
+.table tbody tr {
+  transition: background-color 0.3s ease; /* เพิ่มเอฟเฟ็กต์เวลา Mouse Hover */
+}
+
+.table tbody tr:hover {
+  background-color: #f9f9f9; /* สีพื้นหลังเมื่อ Hover */
+}
+
+/* ปรับสไตล์เซลล์ */
+.table td {
+  text-align: center; /* จัดข้อความให้อยู่กลาง */
+  vertical-align: middle;
+  padding: 10px;
+}
+
+/* เพิ่มสไตล์สถานะ */
+.status-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: center;
+}

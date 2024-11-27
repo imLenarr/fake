@@ -1,0 +1,31 @@
+.login-container {
+  background-color: rgb(242, 248, 225);
+  position: relative;
+  height: 100vh; /* ใช้ 100% ของความสูงหน้าจอ */
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow: hidden; 
+}
+
+.login-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/public/ware.jpg");
+  background-size: cover; /* ปรับภาพให้เต็มโดยไม่เสียอัตราส่วน */
+  background-position: center; /* วางภาพไว้ตรงกลาง */
+  background-repeat: no-repeat; /* ไม่ให้ภาพซ้ำ */
+  opacity: 0.7; /* ความโปร่งแสง */
+  z-index: -1; /* อยู่ด้านหลังเนื้อหาหลัก */
+}
+
+.title {
+  font-size: 18px;
+  font-weight: lighter;
+}

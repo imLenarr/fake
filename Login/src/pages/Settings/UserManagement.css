@@ -1,0 +1,45 @@
+.usermanagement-wrapper {
+  display: flex;
+}
+
+/* .usermanagement-container {
+  flex: 1;
+  padding: 20px;
+  margin-left: 15rem;
+  min-height: 100vh;
+  max-width: 80vw;
+} */
+
+.user-card {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table thead th {
+  background-color: #473366;
+  color: white;
+}
+
+.shadow-sm {
+  /* margin-top: 8rem; */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+}
+

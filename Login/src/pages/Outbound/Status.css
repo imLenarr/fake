@@ -1,0 +1,154 @@
+.status-container {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 60px; */
+  margin-left: 250px;
+  width: calc(100% - 250px);
+}
+
+.top-bar-status {
+  position: fixed;
+  top: 0;
+  left: 250px;
+  right: 0;
+  width: 1580px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #748d8c; */
+  padding: 10px 20px;
+  border-radius: 10px 25px 10px 25px;
+  z-index: 1000;
+  margin-left: 50px;
+}
+
+.status-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  padding-left: 15px;
+}
+
+.showing-status {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  margin-top: 25px;
+  margin-right: 92px;
+}
+
+.status-switch {
+  margin-right: 1150px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.products-status-list {
+  background-color: #ffffff;
+  color: white;
+  border-radius: 20px;
+  height: auto;
+  width: auto;
+  margin-left: 25px;
+  margin-top: 45px;
+  /* margin-right: 300px; */
+  padding: 10px;
+  border-collapse: collapse;
+  position: relative;
+}
+
+.products-status-list table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0; /* ลบช่องว่างระหว่างเซลล์ */
+}
+
+.table-header-status th {
+  padding: 10px; /* ปรับค่าตามต้องการเพื่อระยะห่าง */
+  color: #473366;
+  font-size: 20px;
+  border-bottom: #f2f2e6 solid 2px;
+}
+
+.table-body-status td {
+  padding: 10px; /* ปรับค่าตามต้องการเพื่อระยะห่าง */
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  border-bottom: #f2f2e6 solid 2px;
+  position: relative;
+}
+
+.table-body-status td:nth-child(5) {
+  padding-right: 160px;
+}
+
+.quantity-cell-status {
+  position: relative; /* ตั้งตำแหน่งของ parent */
+  padding-right: 50px; /* เพิ่มระยะห่างระหว่างปุ่มและขอบเซลล์ */
+}
+
+.quantity-container-status {
+  display: flex; /* ใช้ flexbox */
+  align-items: center; /* จัดตำแหน่งแนวตั้งให้ตรงกลาง */
+  justify-content: flex-end; /* เว้นช่องว่างระหว่างจำนวนสินค้าและปุ่ม */
+  width: 100%; /* ขยายให้ container ครอบคลุมเต็มพื้นที่เซลล์ */
+}
+
+.waiting-button.waiting {
+  position: absolute; /* กำหนดตำแหน่งให้ปุ่ม */
+  right: 10px; /* ปุ่มชิดขอบขวา */
+  top: 50%; /* กึ่งกลางแนวตั้ง */
+  transform: translateY(-50%); /* ปรับตำแหน่งให้ตรงกลาง */
+  background-color: #b3b4ad;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.waiting-button.done {
+  position: absolute; /* กำหนดตำแหน่งให้ปุ่ม */
+  right: 10px; /* ปุ่มชิดขอบขวา */
+  top: 50%; /* กึ่งกลางแนวตั้ง */
+  transform: translateY(-50%); /* ปรับตำแหน่งให้ตรงกลาง */
+  background-color: #748d8c;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.waiting-button.rejected {
+  position: absolute; /* กำหนดตำแหน่งให้ปุ่ม */
+  right: 10px; /* ปุ่มชิดขอบขวา */
+  top: 50%; /* กึ่งกลางแนวตั้ง */
+  transform: translateY(-50%); /* ปรับตำแหน่งให้ตรงกลาง */
+  background-color: #fd6e2b;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.status-actions {
+  margin-top: 20px; /* ระยะห่างจากตาราง */
+  display: flex;
+  justify-content: right; /* จัดปุ่มให้อยู่ตรงกลาง */
+}
+
+.delete-button-status {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.delete-button-status:hover {
+  background-color: #e60000;
+}

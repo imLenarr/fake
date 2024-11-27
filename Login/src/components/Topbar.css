@@ -1,0 +1,25 @@
+.main-content {
+    transition: margin-left 0.3s ease;
+  }
+  
+  
+  .content-area {
+    padding: 20px;
+  }
+  
+  /* .topbar {
+    position: fixed;
+    top: 0;
+    left: 250px;
+    right: 0;
+    width: 1580px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #748D8C;
+    padding: 10px 20px;
+    border-radius: 10px 25px 10px 25px;
+    z-index: 1000;
+    margin-left: 50px;
+  } */
+  

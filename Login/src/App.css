@@ -1,0 +1,7 @@
+
+.main-content {
+  min-height: 100vh;
+  background-color: #F2F2E6; 
+  transition: margin-left 0.3s ease;
+}
+

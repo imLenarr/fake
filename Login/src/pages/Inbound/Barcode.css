@@ -1,0 +1,110 @@
+.status-container {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 60px; */
+  margin-left: 250px;
+  width: calc(100% - 250px);
+}
+
+.status-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  /* padding-left: 15px; */
+}
+
+.top-bar .status-title {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.top-bar .admin-button {
+  background-color: #ffffff;
+  color: #748d8c;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.top-bar .admin-button:hover {
+  background-color: #f5f5f5;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100%;
+  
+}
+
+/* Tabs Style */
+.button-group {
+  display: flex;
+  gap: 10px; /* ช่องว่างระหว่างปุ่ม */
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-active {
+  background-color: #6c5ce7;
+  color: #fff;
+}
+
+.btn-inactive {
+  background-color: #f8f9fa;
+  color: #6c757d;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Form */
+.form-control {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  transition: border 0.2s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #6c5ce7;
+  outline: none;
+  box-shadow: 0 0 4px rgba(108, 92, 231, 0.5);
+}
+
+/* Approve Button */
+.approve-button {
+  background-color: #473366;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 500px;
+  text-align: center;
+  margin-left: 883px;
+  /* padding: 5px 10px; */
+}
+
+.approve-button:hover {
+  background-color: #473366;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
